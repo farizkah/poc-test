@@ -1,4 +1,4 @@
-package com.poc.test.com.poc.test;
+package com.poc.test;
 
 /**
  * Hello world!
