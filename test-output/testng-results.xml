@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6753" started-at="2021-06-21T22:07:00 WIB" finished-at="2021-06-21T22:07:06 WIB">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6753" started-at="2021-06-21T22:07:00 WIB" finished-at="2021-06-21T22:07:06 WIB">
+      <class name="com.test.web.WebTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.web.WebTest@26a7b76d]" name="setup" is-config="true" duration-ms="3870" started-at="2021-06-21T22:07:00 WIB" finished-at="2021-06-21T22:07:04 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.test.web.WebTest@26a7b76d]" name="searchProduct" duration-ms="2720" started-at="2021-06-21T22:07:04 WIB" finished-at="2021-06-21T22:07:06 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.web.WebTest@26a7b76d]" name="teardown" is-config="true" duration-ms="134" started-at="2021-06-21T22:07:06 WIB" finished-at="2021-06-21T22:07:06 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.web.WebTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

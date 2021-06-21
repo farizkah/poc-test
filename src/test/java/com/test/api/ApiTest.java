@@ -1,6 +1,4 @@
-package com.poc.test;
-
-import org.junit.Test;
+package com.test.api;
 
 import io.restassured.path.json.JsonPath;
 
@@ -9,6 +7,8 @@ import static io.restassured.module.jsv.JsonSchemaValidator.*;
 import static org.hamcrest.Matchers.*;
 
 import java.io.File;
+
+import org.testng.annotations.Test;
 
 public class ApiTest {
 
