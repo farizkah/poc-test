@@ -14,16 +14,18 @@ public class ApiTest {
 
 	@Test
 	public void checkSchema() {
+		File schemaFile = new File("resources/schema.json");
+		
 		when().
 			get("https://jsonplaceholder.cypress.io/posts").
 		then().
 			statusCode(200).
-			body(matchesJsonSchemaInClasspath("com/poc/test/schema.json"));
+			body(matchesJsonSchema(schemaFile));
 	}
 	
 	@Test
 	public void checkPostResponse() {
-		JsonPath requestData = new JsonPath(new File("src/test/java/com/poc/test/postRequestData.json"));
+		JsonPath requestData = new JsonPath(new File("resources/postRequestData.json"));
 		
 		given().
 			contentType("application/json").
